@@ -6,7 +6,7 @@ name: build_and_test
 on:
 # why use pull_request_target? https://stackoverflow.com/questions/58066966/commenting-a-pull-request-in-a-github-action
   pull_request_target:
-    branches: [ master, develop, release, feature/** ]
+    branches: [ main, develop, release, feature/** ]
 
 #https://github.com/aws-actions/configure-aws-credentials/issues/271#issuecomment-931012696
 permissions:
