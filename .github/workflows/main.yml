@@ -27,7 +27,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '👋 Thanks for coming to my TED talk!'
+              body: '👋 Thanks for coming to my TED talk! www.google.com https://www.google.com'
             })
     # - uses: actions/checkout@v2
     # - name: Use Node.js ${{ matrix.node-version }}
